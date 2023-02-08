@@ -16,13 +16,13 @@ public class Triangle {
 
         //input the length of the edges
         System.out.println("Input the length of the first edge: ");
-        double firstEdge = sc.nextInt();
+        double firstEdge = sc.nextDouble();
 
         System.out.println("Input the length of the second edge: ");
-        double secondEdge = sc.nextInt();
+        double secondEdge = sc.nextDouble();
 
         System.out.println("Input the length of the third edge: ");
-        double thirdEdge = sc.nextInt();
+        double thirdEdge = sc.nextDouble();
 
         double perimeter = firstEdge + secondEdge + thirdEdge; // Perimeter formula of a triangle
 
